@@ -1,0 +1,79 @@
+*
+{
+    box-sizing: border-box;
+}
+
+#normal
+{
+    width: 20%;
+    
+    margin-left: 41%;
+    margin-top: 2px;
+    
+    visibility: hidden;
+}
+
+#glad
+{
+    width: 20%;
+    
+    position: absolute;
+    
+    margin-left: -22%;
+    margin-top: -1%;
+    
+    visibility:hidden;
+}
+
+#knappers
+{
+    text-align: center;
+    
+    margin: 0px;
+}
+
+#knap
+{
+    width: 300px;
+    height: 100px;
+}
+
+#knap:hover
+{
+    background-color: lightgrey;
+}
+
+#svar
+{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    visibility: hidden;
+}
+
+/*MOBIL*/
+@media(max-width: 767px)
+{
+    body
+    {
+        background-color: skyblue;
+    }   
+}
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1023px)
+{
+    body
+    {
+        background-color: skyblue;
+    }  
+}
+    
+/*NORMAL DESKTOP*/
+@media (min-width: 1024px)
+{
+    body
+    {
+        background-color: skyblue;
+    }  
+}
