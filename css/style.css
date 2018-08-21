@@ -6,7 +6,7 @@
 #normal
 {
     width: 20%;
-    min-width: 150px;
+
     
     margin-left: 41%;
     margin-top: 2px;
@@ -17,7 +17,7 @@
 #glad
 {
     width: 20%;
-    min-width: 150px;
+
     
     position: absolute;
     
@@ -60,16 +60,6 @@
     body
     {
         background-color: skyblue;
-    }
-    
-    #normal
-    {
-        margin-left: 31%;
-    }
-    
-    #glad
-    {
-        margin-left: -46%;
     }
 }
 
